@@ -1,0 +1,11 @@
+<div *ngFor="let item of contact">
+    <div class="bg-secondary">
+
+        <h1 class="gradient large" ><b>{{item.meetus | uppercase}}</b></h1>
+    </div>
+    <div class="container  p-2 d-lg-flex bg-info col-4">
+        {{item.mobileNo}}<br>
+        {{item.mailid}} <br>
+        {{item.address}}
+    </div>
+</div>

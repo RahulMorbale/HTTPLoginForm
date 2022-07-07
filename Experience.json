@@ -1,0 +1,20 @@
+{
+  "Experience":  [
+        {
+            "Experience1": "Experience 1",
+            "projectName1": "Project Name: ABU-DTD",
+            "dellTools1": "Dell Tools: DTD(Dell Tech Direct), Delta, Turbotech",
+            "Duration1": "Duration: 1 Year",
+            "Team1": "Team Size: 6",
+            "dellSystems1": "Worked on Dell Systems: servers, Desktop, Laptops"
+        },
+        {
+            "Experience2": "Experience 2",
+            "projectName2": "Project Name: Labguru 2020",
+            "projectDetails2": "Project Details: It's an application to be used by dentist for their daily transactions with patients",
+            "technologyUsed2": "Technology Used: Angular 7, .Net core MVC, SQL",
+            "Duration2": "Duration: 3 year",
+            "teamSize2": "Team Size: 7"
+        }
+    ]
+}

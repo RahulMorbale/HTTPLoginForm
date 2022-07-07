@@ -1,0 +1,29 @@
+{
+    "userdetails" : [
+    {
+      "username": "rahul@gmail.com",
+      "password": 123456,
+      "user": "Welcome Rahul" 
+    },
+    {
+      "username": "manohar@gmail.com",
+      "password": 12345678,
+      "user": "Welcome Manohar"
+    },
+    {
+      "username": "jyoti@gmail.com",
+      "password": 654321,
+      "user": "Welcome Jyoti"
+    },
+    {
+      "username": "ragini@gmail.com",
+      "password": 87654321,
+      "user": "Welcome Ragini"
+    },
+    {
+      "username": "macchindra@gmail.com",
+      "password": 11223344,
+      "user": "Welcome Macchindra"
+    }
+  ]
+}

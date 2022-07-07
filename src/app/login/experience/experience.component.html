@@ -1,0 +1,79 @@
+<div class="bg-secondary ">
+    <h1 class="gradient large"><b> PROFESSIONAL EXPERIENCE</b></h1>
+</div>
+<hr>
+<div class="container">
+    <div class="d-lg-flex p-1 bg-info container text-decoration-underline ">
+        <div *ngFor="let item of data">
+            <h2><b> {{item.Experience1 | uppercase}}</b> </h2>
+        </div>
+    </div>
+    <div class="container card bg-secondary text-info">
+        <div *ngFor="let item of data">
+            <div>{{item.projectName1}}</div>
+            <div>{{item.dellTools1}} </div>
+            <div>{{item.Duration1}} </div>
+            <div>{{item.Team1}} </div>
+            <div>{{item.dellSystems1}}</div>
+        </div>
+    </div>
+    <hr class="container">
+    <div class="d-lg-flex p-1 bg-info container ">
+        <div *ngFor="let item of data">
+            <h2><b> {{item.Experience2 | uppercase}}</b> </h2>
+        </div>
+    </div>
+    <div class="container card bg-secondary text-info ">
+        <div *ngFor="let item of data">
+            <div>{{item.projectName2}} </div>
+            <div>{{item.projectDetails2}}</div>
+            <div>{{item.technologyUsed2}}</div>
+            <div>{{item.Duration2}} </div>
+            <div>{{item.teamSize2}} </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- data fetch using json server -->
+<!-- {{getjson}}
+<div *ngFor="let item of getjson">
+    {{item.name}}
+    {{item.address}}
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div>
+    <table>
+        <tr>
+            <th>projectName</th>
+            <th>dellTools</th>
+            <th>Duration</th>
+            <th>Team</th>
+            <th>dellSystems</th>
+        </tr>
+        <tr *ngFor="let item of dsc">
+            <td>{{item.projectName}}</td>
+            <td>{{item.dellTools}}</td>
+            <td>{{item.Duration}}</td>
+            <td>{{item.Team}}</td>
+            <td>{{item.dellSystems}}</td>
+        </tr>
+    </table>
+</div> -->
